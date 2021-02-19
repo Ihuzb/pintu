@@ -20,5 +20,4 @@ for col in range(0, col_num):
         total = round(total + (100 / (row_num * col_num)), 2)
         sys.stdout.write('\r%s%%' % (total))
         sys.stdout.flush()
-print(width_item, height_item)
 print(' ok');
